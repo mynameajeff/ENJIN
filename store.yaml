@@ -1,0 +1,29 @@
+
+#TYPE
+# name
+# - num-of-parameters / type-of-param
+
+ASSET:
+
+  show:
+  - 3
+  - [Screen, [Variable, Integer], [Variable, Integer]]
+
+
+SCREEN:
+
+  create:
+  - 0
+
+  resizable:
+  - 1
+  - [Boolean, Integer]
+
+  title:
+  - 1
+  - String
+
+VAR:
+
+  incr:
+  - 0
