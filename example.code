@@ -10,7 +10,7 @@
 CONST screen_width  = 640;
 CONST screen_height = 480;
 
-CONST screen_title = "Some Fuckin Title!";
+CONST screen_title = "Some Title!";
 
 SCREEN scr = ($screen_width, $screen_height);
 
