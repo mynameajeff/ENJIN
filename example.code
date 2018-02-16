@@ -1,0 +1,31 @@
+
+~ This is just a test script to see what this new scripting language will become.
+~ It is also the incomplete version, as the more complete version is currently being converted to this new design.
+~ The reason for this is, with the last design everything was hardcoded into the grammar, every call and such.
+~ Doing this wasn't sustainable, so I have decided to take care of it before it becomes impossible to work with, and I would inevitably drop the project.
+~ If this all goes well, I'll actually implement some games in this language, 
+~           and perhaps make similar languages for different applications, and in different langauges.
+
+
+CONST screen_width  = 640;
+CONST screen_height = 480;
+
+CONST screen_title = "Some Fuckin Title!";
+
+SCREEN scr = ($screen_width, $screen_height);
+
+$scr.title     = "screenBobs";
+$scr.title     = $screen_title;
+$scr.resizable = *true;
+
+$scr.create();
+
+ASSET Flower1 = "assets/flowers.png";
+
+VAR x = 10;
+VAR y = 10;
+
+VAR name = "my\~name";
+
+$Flower1.show($scr, $x, $y);
+$x.incr();
